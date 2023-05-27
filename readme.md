@@ -27,8 +27,8 @@ https://stonkybvb.onrender.com/
 
 - 3/24 **DONE** Complete the Milestone and Goalzzzzz layout.
 - **DONE LINK ABOVE** Build initial wireframe for the application.
-- 3/26 Determine the API in order to determine bull vs bear.
-- 3/26 Build framework and ensure data can be used without error with API.
+- **DONE API LINK BELOW and on js.js** 3/26 Determine the API in order to determine bull vs bear.
+- 3/27 Build framework and ensure data can be used without error with API.
 -/3/27 Implement ALGO (I use routinely) for BvB if else statement for redirection to Bull or Bear Page.
 - 3/28 Design HTML pages for Bull and Bear inlie with Wireframe design.
 - 3/29 Build out transition of shaking BvB 8-ball.
@@ -44,3 +44,10 @@ https://stonkybvb.onrender.com/
 ## Notes from instructor time:
 - (Kyle) Use model as it will be better than an alert feature
 - (Kyle) update the wire framing.
+- (Alex) Project approved, agrees to keep it simple with the API use.
+    Note: Yahoo, seems to  have ceased offering the free API to their data, this is suprising and now I am looking to find another API to use. 
+     API Key Polygon: HMKHCCgqWLvu_C9a8aiprQNGVLIgZxvn
+        - limited to 5 calls per minute, for the project purpose this may be reasonable?
+
+        I found a free open source API though so going to go this method it is unlimited use:
+        pip install yfinance (appears to be a python api, this may be more valuable for the next iteration.)
