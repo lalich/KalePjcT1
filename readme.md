@@ -46,8 +46,10 @@ https://stonkybvb.onrender.com/
 - (Kyle) update the wire framing.
 - (Alex) Project approved, agrees to keep it simple with the API use.
     Note: Yahoo, seems to  have ceased offering the free API to their data, this is suprising and now I am looking to find another API to use. 
-     API Key Polygon: HMKHCCgqWLvu_C9a8aiprQNGVLIgZxvn
+     - API Key Polygon: HMKHCCgqWLvu_C9a8aiprQNGVLIgZxvn
         - limited to 5 calls per minute, for the project purpose this may be reasonable?
 
         I found a free open source API though so going to go this method it is unlimited use:
         pip install yfinance (appears to be a python api, this may be more valuable for the next iteration.)
+
+        - Welcome to Alpha Vantage! Your dedicated access key is: AESWZAZ89MXTH2XK. Please record this API key at a safe place for future data access.
