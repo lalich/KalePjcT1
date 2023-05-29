@@ -9,11 +9,22 @@ const formData = new FormData(event.target);  // creates new variable from $ston
 
 const Stonky = formData.get('stonky')
 
-const url = `https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=${Stonky}&apikey=AESWZAZ89MXTH2XK`
+const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${Stonky}&apikey=AESWZAZ89MXTH2XK`
 const url2 = `https://api.polygon.io/v2/aggs/ticker/${Stonky}/range/1/day/2023-01-09/2023-01-09?apiKey=HMKHCCgqWLvu_C9a8aiprQNGVLIgZxvn`
 
 console.log(url) 
 console.log(url2)
+
+    $.ajax(url)
+        .then(response => 
+            console.log(response)
+        )
+
+    fetch(url2)
+            .then(response => {
+                return response.json();
+            })
+            .then(data => console.log(data))
 
 })
 
