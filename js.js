@@ -19,14 +19,35 @@ console.log(url2)
         .then(response => 
             console.log(response)
         )
+       
 
     fetch(url2)
             .then(response => {
                 return response.json();
             })
-            .then(data => console.log(data))
+            .then(data => console.log(data));
 
-})
+     
+
+
+const modal = document.querySelector('stonk')  // makes modal an object to open during function of stonk search
+function open() {
+    document.querySelector('#open')}  // open function 
+
+function close() {
+
+ document.querySelector('#clsoe')  // close function
+}
+
+// open.addEventListener('submit', () => {    // trying to open the modal but really not getting this!
+//     StonkModal.open
+// })
+
+
+
+
+    })
+
 
 
 

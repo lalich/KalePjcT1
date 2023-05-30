@@ -25,6 +25,16 @@ h3 {
     text-align: center;
     text-indent: 15%;
     padding-right: 220px;
+    
  
 
 }
+
+
+.StonkyRes {
+    width: 450px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 6;
+}
+

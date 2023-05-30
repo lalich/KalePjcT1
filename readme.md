@@ -25,13 +25,13 @@ https://stonkybvb.onrender.com/
 
 ### Milestones & Goalzzzz!
 
-- 3/24 **DONE** Complete the Milestone and Goalzzzzz layout.
+- **DONE** Complete the Milestone and Goalzzzzz layout.
 - **DONE LINK ABOVE** Build initial wireframe for the application.
 - **DONE API LINK BELOW and on js.js** 3/26 Determine the API in order to determine bull vs bear.
-- 3/27 Build framework and ensure data can be used without error with API.
+- **DONE NEED TO USE MULTIPLE API CALLS FOR DATA, MAY ADJUST DATA CALLS**  Build framework and ensure data can be used without error with API.
 -/3/27 Implement ALGO (I use routinely) for BvB if else statement for redirection to Bull or Bear Page.
-- 3/28 Design HTML pages for Bull and Bear inlie with Wireframe design.
-- 3/29 Build out transition of shaking BvB 8-ball.
+- **DONE** Design HTML pages for Bull and Bear inlie with Wireframe design.
+- **NO IDEA IF THIS WAS DONE RIGHT BUT LOOKING FORWARD TO TESTING IT, CONSULSTED THE INTERENT A LOT TO WRITE THE CODE, CHAT GPT WAS HELPFUL** Build out transition of shaking BvB 8-ball.
 - 3/30 test the app out and share with friends for first feedback.
 - 3/31 update based on feedback sample. 
 
