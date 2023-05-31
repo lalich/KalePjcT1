@@ -25,7 +25,7 @@ delay('LFG Dr.', 6900)
 // </div>   <!-- closes the StonkyModal -->
 
 
-class StonkModal extends HTMLElement {
+class StonkyModal extends HTMLElement {
     constructor() {
         super()
         this.attachShadow({mode: 'open'})
@@ -45,6 +45,7 @@ class StonkModal extends HTMLElement {
         }`
 
         const template = `
+        <div class='Stonky'
         <div class='modal'>
         <div Class='StonkRes'
         <slot>${data.name}</slot>
@@ -57,12 +58,12 @@ class StonkModal extends HTMLElement {
     }
 
     open(){
-this.shadowRoot.querySelector('Stonk').style.display = 'flex'
+this.shadowRoot.querySelector('Stonky').style.display = 'flex'
     }
     
     close(){
-        this.shadowRoot.querySelector('Stonk').style.display = 'none'
+        this.shadowRoot.querySelector('Stonky').style.display = 'none'
 }
 
-// customElements.define('Stonk', StonkModal)
+customElements.define("StonkyModal", StonkyModal)
 }

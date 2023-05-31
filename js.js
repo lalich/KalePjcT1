@@ -17,7 +17,7 @@ console.log(url2)
 
     $.ajax(url)
         .then(response => 
-            console.log(response)
+            console.log(response, response['Global Quote']['05. price'])
         )
        
 
@@ -27,7 +27,7 @@ console.log(url2)
             })
             .then(data => console.log(data));
 
-     
+     console.log(url.price)
 
 
 const modal = document.querySelector('stonk')  // makes modal an object to open during function of stonk search
@@ -39,9 +39,9 @@ function close() {
  document.querySelector('#clsoe')  // close function
 }
 
-// open.addEventListener('submit', () => {    // trying to open the modal but really not getting this!
-//     StonkModal.open
-// })
+addEventListener('submit', () => {    // trying to open the modal but really not getting this!
+    StonkModal.open
+})
 
 
 
