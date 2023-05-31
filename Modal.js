@@ -48,11 +48,13 @@ class StonkyModal extends HTMLElement {
         <div class='Stonky'
         <div class='modal'>
         <div Class='StonkRes'
-        <slot>${data.name}</slot>
-        <slot>${data.volume}</slot>
-        <slot>${data.marketcap}</slot>
-        <slot>${data.sharesoutstanding}</slot>
-        <slot>${data.optionopeninterest}</slot>
+        <slot>${Stonky}</slot>
+        <slot>${Price}, ${PriceP}</slot>
+        <slot>${Volume}</slot>
+        <slot>${MktCap}</slot>
+        <slot>${SharesOutstanding}</slot>
+        <slot>${RSI}</slot>
+        <slot>${CR}</slot>
         `
         this.shadowRoot.innerHTML = `${style} ${template}`
     }
@@ -63,7 +65,7 @@ this.shadowRoot.querySelector('Stonky').style.display = 'flex'
     
     close(){
         this.shadowRoot.querySelector('Stonky').style.display = 'none'
-}
+
 
 customElements.define("StonkyModal", StonkyModal)
-}
+    }}

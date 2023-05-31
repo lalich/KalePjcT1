@@ -1,11 +1,13 @@
 # PROJECT 1 - StonkyBvB
 
 Utilize an API to open up a stock quote and pull certain information such as:
-1. Price
-2. Average Trading Volume(10D)
-3. Market Capitalization
-4. Shares Outstanding
-5. Option Open Interest
+1. Price & Most Previous Day Change in %**DONE**
+2. Volume **DONE**
+3. Market Capitalization **DONE**
+4. Shares Outstanding **DONE** 
+5. RSI **DONE**
+6. Current Assets & Current Liabilities for determining Current Ratio **DONE**
+7. Net Cash Flow from Operating Activities **DONE**
 
 Build and implement an algorythm to rate a 'bull vs. bear' outcome/rating. This is used to determine which GIF/Pic is displayed using and If/Else statement. 
 
