@@ -16,25 +16,36 @@
   </head>
 <body>
     <h1>Welcome to $tonkyBvB!</h1>
-        <h2 id="Stonky">
+
+  
+        
             This is where you look up a stonky quote!
                  <form><input type='text' name="stonky" placeholder='$tonky $earch...' >
-        
-                 <button id="stonkysearch"> 'See the Data' </button></form>
-                </h2>
-                    <h3>After clicking “See the Date” your results will be displayed below 
+                    <button class='StD' onclick="$StonkyModal.show()"> 'See the Data'</button></form>
+                   
+                   
+                    <dialog id="$StonkyModal">    <!-- starts the StonkyModal for results pop-up & BvB -->
+                                             <!-- class for css the StonkyModal -->
+                                             <div Class='StonkRes'>
+                                               
+                                               
+
+                     <button class='BvBbutton' onclick="ExnD()">What does the BvB-8-ball think?        <!-- StonkyBvB button text -->
+                        <ul id="StonkyData"></ul>
+                        <img src="https://i.imgur.com/6d29qwX.jpg" alt="StonkyBvB-Magic-8-Ball">      <!-- M8Ball StonkyModal img -->
+                       
+                     </button>
+                     <button onclick="$StonkyModal.close()"> Nah</button>    <!-- Close the Modal-->
+                </div></dialog>  
+              
+               
+           
+                    
+                <h3>After clicking “See the Date” your results will be displayed below 
                      with the $tonkyBvB-Magic-8-Ball displayed with the message:
                          “What does the BvB-8-Ball think?, do you dare ask the $tonks destiny?</h3>
          
      
-                <div id="StonkyModal" class="modal">    <!-- starts the StonkyModal for results pop-up & BvB -->
-                    <div class="StonkRes">                     <!-- class for css the StonkyModal -->
-                
-                 <button id="BvB">What does the BvB-8-ball think?        <!-- StonkyBvB button text -->
-                <img src="https://i.imgur.com/6d29qwX.jpg" alt="">      <!-- M8Ball StonkyModal img -->
-                    
-                 </button>
-        </div>   <!-- closes the StonkyModal -->
         
 </body>
 </html>

@@ -45,9 +45,9 @@ class StonkyModal extends HTMLElement {
         }`
 
         const template = `
-        <div class='Stonky'
+        <div class='Stonky'>
         <div class='modal'>
-        <div Class='StonkRes'
+        <div Class='StonkRes'>
         <slot>${Stonky}</slot>
         <slot>${Price}, ${PriceP}</slot>
         <slot>${Volume}</slot>
@@ -55,6 +55,7 @@ class StonkyModal extends HTMLElement {
         <slot>${SharesOutstanding}</slot>
         <slot>${RSI}</slot>
         <slot>${CR}</slot>
+        </div
         `
         this.shadowRoot.innerHTML = `${style} ${template}`
     }
