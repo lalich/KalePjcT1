@@ -37,9 +37,9 @@ https://stonkybvb.onrender.com/
 - **DONE** test the app out and share with friends for first feedback.
 - **DONE** create take me back buttons on bull v bear
 - **DONE** Ensure the contents of the list are cleared on a "nah" or a new "see the data"
-- 6/2 make the 8 ball dance!
-- 6/2 update based on feedback sample. 
-- 6/2 prepare to present
+- **DONE** make the 8 ball dance!
+- **DONE** update based on feedback sample. 
+- **DONE** prepare to present
 - 6/3 present and ask for feedback for the next itteration of StonkyBvB
 
 
