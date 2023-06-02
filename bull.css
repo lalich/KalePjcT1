@@ -6,8 +6,20 @@ body {
     
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 55 px;
 }
 
 h1 {
     text-align: center;
+}
+
+
+button {
+    align-items: left;
+    position: relative;
+    color: goldenrod;
+    background-color: black;
+    display: inline-block;
+    
+   
 }

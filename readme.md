@@ -35,7 +35,8 @@ https://stonkybvb.onrender.com/
 - **DONE** Design HTML pages for Bull and Bear inlie with Wireframe design.
 - **NO IDEA IF THIS WAS DONE RIGHT BUT LOOKING FORWARD TO TESTING IT, CONSULSTED THE INTERENT A LOT TO WRITE THE CODE, CHAT GPT WAS HELPFUL** Build out transition of shaking BvB 8-ball.
 - **DONE** test the app out and share with friends for first feedback.
-- 6/1 create take me back buttons on bull v bear
+- **DONE** create take me back buttons on bull v bear
+- **DONE** Ensure the contents of the list are cleared on a "nah" or a new "see the data"
 - 6/2 make the 8 ball dance!
 - 6/2 update based on feedback sample. 
 - 6/2 prepare to present

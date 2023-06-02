@@ -5,7 +5,7 @@ const BvBBullish = {}
 const $stonkySearch = $('form');      
 $stonkySearch.on('submit', event => {     // creates StonkySearch function
     event.preventDefault();     // pulls $tonky $earch field and prevents wild refresh
-
+$('#StonkyData').empty()
 
 const formData = new FormData(event.target);  // creates new variable from $stonkySearch for $tonky
 

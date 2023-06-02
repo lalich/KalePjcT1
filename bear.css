@@ -7,3 +7,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+button {
+    align-content: center;
+    position: relative;
+    color: goldenrod;
+    background-color: black;
+    display: inline-block;
+
+}
