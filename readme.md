@@ -1,7 +1,7 @@
 # PROJECT 1 - StonkyBvB
 
 Utilize an API to open up a stock quote and pull certain information such as:
-1. Price & Most Previous Day Change in %**DONE**
+1. Previous Day Price Close**DONE**
 2. Volume **DONE**
 3. Market Capitalization **DONE**
 4. Shares Outstanding **DONE** 
@@ -31,15 +31,15 @@ https://stonkybvb.onrender.com/
 - **DONE LINK ABOVE** Build initial wireframe for the application.
 - **DONE API LINK BELOW and on js.js** 3/26 Determine the API in order to determine bull vs bear.
 - **DONE NEED TO USE MULTIPLE API CALLS FOR DATA, MAY ADJUST DATA CALLS**  Build framework and ensure data can be used without error with API.
--/5/27 Implement ALGO (I use routinely) for BvB if else statement for redirection to Bull or Bear Page.
+- **DONE** Implement ALGO (I used routinely in my original trading days) for BvB if else statement for redirection to Bull or Bear Page.
 - **DONE** Design HTML pages for Bull and Bear inlie with Wireframe design.
 - **NO IDEA IF THIS WAS DONE RIGHT BUT LOOKING FORWARD TO TESTING IT, CONSULSTED THE INTERENT A LOT TO WRITE THE CODE, CHAT GPT WAS HELPFUL** Build out transition of shaking BvB 8-ball.
-- 5/30 test the app out and share with friends for first feedback.
-- 5/31 update based on feedback sample. 
+- **DONE** test the app out and share with friends for first feedback.
 - 6/1 create take me back buttons on bull v bear
-
-
-
+- 6/2 make the 8 ball dance!
+- 6/2 update based on feedback sample. 
+- 6/2 prepare to present
+- 6/3 present and ask for feedback for the next itteration of StonkyBvB
 
 
 
@@ -56,3 +56,5 @@ https://stonkybvb.onrender.com/
         pip install yfinance (appears to be a python api, this may be more valuable for the next iteration.)
 
         - Welcome to Alpha Vantage! Your dedicated access key is: AESWZAZ89MXTH2XK. Please record this API key at a safe place for future data access.
+
+        - I got a ton of help on the one on one during Wednesday class, this should afford me the help to wrap the project up with plenty of time for testing and feedback... one of the highlights is that I have paid for said API access through polygon and we had a discussion on how I may want to change the key after presenting so it isnt readily available to others, however soon will learn how to use the key in the backend to protect that data from public display.
