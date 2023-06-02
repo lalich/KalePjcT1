@@ -1,16 +1,24 @@
 console.log('Hello Dr. Big D. Ready to StonkyBvB?')
 
-const data = {}
-const BvBBullish = {}
-const $stonkySearch = $('form');      
+const data = {}         // creates data variable to be used in the stonky bvbBullish function later
+const BvBBullish = {} // creates a const that can be used in if/else statement when all conditions are met
+const $stonkySearch = $('form');       // pulls the text from the form
 $stonkySearch.on('submit', event => {     // creates StonkySearch function
     event.preventDefault();     // pulls $tonky $earch field and prevents wild refresh
-$('#StonkyData').empty()
+$('#StonkyData').empty()        // clears contents of the UL on the DOM on a new search
+
 
 const formData = new FormData(event.target);  // creates new variable from $stonkySearch for $tonky
 
 const Stonky = formData.get('stonky').toUpperCase(); // had to add .toUC when using the polygon
- 
+
+
+
+// const buttonText = 'What does the BVB-8-Ball think about ' + Stonky + ' ?'
+// $('.BvBbutton').text(buttonText)
+// $('.BvBbutton').ul("StonkyData")
+// $('.BvBbutotn').img="https://i.imgur.com/6d29qwX.jpg", alt="StonkyBvB-Magic-8-Ball" 
+
 
 const uprice = `https://api.polygon.io/v2/aggs/ticker/${Stonky}/prev?adjusted=true&apiKey=HMKHCCgqWLvu_C9a8aiprQNGVLIgZxvn`
 const uvolume = `https://api.polygon.io/v2/aggs/ticker/${Stonky}/range/1/day/2023-01-09/2023-01-09?apiKey=HMKHCCgqWLvu_C9a8aiprQNGVLIgZxvn`
@@ -32,12 +40,15 @@ const ul = $('#StonkyData')
 // console.log(uCR)
 
 
+
             // grabs the price
     $.ajax(uprice)                    
         .then(response => { 
+// console.log(response)
+            data.name = response['results']['0']['T']
+// console.log(data.name)
             data.price = response['results']['0']['vw']
-//console.log(data.price)
-//                                         
+// console.log(data.price)                                
      const priceLi = $('<li>')
             priceLi.text('Price: $' + data.price.toFixed(2))
 // console.log(priceLi.text())
@@ -142,9 +153,9 @@ $(`[name='stonky']`)[0].value = '';
 
 
 
-console.log('ExnD')
+// console.log('ExnD')
 
-console.log(data)
+// console.log(data)
 
 
 
@@ -155,13 +166,37 @@ console.log(data)
 // I found the baseline code after watching a few youtube videos and consulting ChatGPT this is what I got from it and am not sure 
 // what the necessary steps are that I am missing, I know I need to define what makes the BvBBullish the result in the data pull. 
 function ExnD() {
-    console.log(data)
+    // console.log(data)
     
-
+const imageElement = document.getElementById('BvB-8-Ball');
+imageElement.classList.add('expand')
     // $('#BvBButton').addClass('expand');   // creates shake and direct to BvB bull condition
 
     setTimeout(function() {
+        const Stonky = data.name
+        // const bull = 'bull.html'   // dont think these were necessary nor did they work
+        // const bear = 'bear.html'
+        
+        // function bullH1(Stonky) {
+        //     const h1 = document.getElementById('bvbBullTitle');
+        //     const bvbBullTitle = document.createElement('h1)');
+        //     bvbBullTitle.textContent = 'The BvB-8-Ball is Bullish on ' + Stonky + '!';
+        // h1.appendChild(bvbBullTitle);
+        // }
+        // function bullH1(Stonky) {
+        //     const h1 = document.getElementById('bvbBullTitle');
+        //     const bvbBullTitle = document.createElement('h1)');
+        //     bvbBullTitle.textContent = 'The BvB-8-Ball is Bullish on ' + Stonky + '!';
+        // h1.appendChild(bvbBullTitle);
+        // }
 
+         // const bvbBullrTitle = $('<h1>')
+        // bvbBullrTitle.text('The BvB-8-Ball is Bullish on ' + Stonky + '!')
+        // $('bvbBullTitle').append(bvbBullTitle);
+
+        // const bvbBearTitle = $('<h1>')
+        // bvbBearTitle.text('The BvB-8-Ball is Bearish on ' + Stonky + '!')
+        // $('bvbBearTitle').append(bvbBearTitle);
        
          const condition1 = (data.ocf > 0)
                                                      // console.log(condition1)

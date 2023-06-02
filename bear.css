@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    text-decoration: underline;
 }
 
 body {
@@ -10,10 +11,11 @@ body {
 
 
 button {
-    align-content: center;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
     position: relative;
     color: goldenrod;
     background-color: black;
-    display: inline-block;
 
 }
